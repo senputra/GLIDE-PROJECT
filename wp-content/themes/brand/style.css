@@ -1,0 +1,216 @@
+/*
+Theme Name: Brand
+Theme URI: https://www.wp-brandtheme.com/
+Author: Massimo Sanfelice - Maxsdesign
+Description: Brand is a fast, lightweight, flexible WordPress theme. It is also mobile and tablet responsive. Cross browser compatible, Brand is easily customizable: add a slider, an image or a video on the front page, change colors, typography, enable and disable elements, add left or right sidebar and much more. To start building your website navigate to Appearance > Customize. Then take a look at our amazing add-ons at https://www.wp-brandtheme.com/add-ons.
+Version: 1.9
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: brand
+Tags: right-sidebar, left-sidebar, footer-widgets, blog, e-commerce, photography, custom-header, custom-background, custom-menu, custom-colors, sticky-post, threaded-comments, translation-ready, featured-images
+
+Brand WordPress Theme, Copyright 2017 Massimo Sanfelice | Maxsdesign
+Brand is distributed under the terms of the GNU GPL
+*/
+
+.wp-caption {
+	margin-bottom: 1.75em;
+	max-width: 100%;
+}
+
+.wp-caption .wp-caption-text {
+	color: #686868;
+	font-size: 13px;
+	font-size: 0.8125rem;
+	font-style: italic;
+	line-height: 1.6153846154;
+	padding-top: 0.5384615385em;
+}
+
+.sticky .entry-title a {
+	font-weight: bolder;
+}
+
+article.sticky:after {
+	content: "\f08d";
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-family: FontAwesome;
+	font-size: 2.5rem;
+}
+
+.gallery-caption {
+	font-style: italic;
+}
+
+.bypostauthor .comment-body {
+	padding-top: 5px;
+	border-top: 5px solid #1ebaf3;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 0 auto;
+}
+
+#wp-custom-header .customize-partial-edit-shortcut {
+	top: 50%;
+	left: 2%;
+}
+
+/*-------------------------------*/
+
+#primary-content {
+	display: flex;
+	flex-flow: wrap;
+	flex-direction: row;
+}
+
+.flex1 {
+	flex: 1 1 400px;
+	margin: 1em;
+}
+
+.slide-content h1,
+h2 {
+	filter: drop-shadow(1px 0px 3px rgba(0, 0, 0, 0.5));
+}
+
+
+/***** making a whole div clickable ***/
+.default-link{
+	/* all rules required to make the whole div clickable */ 
+	position:absolute; 
+	width:100%;
+	height:100%;
+	top:0;
+	left: 0;
+	z-index: 1;
+	/* this is a fix for IE7-9 */
+	background-color:#ffffff;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";  
+	filter: alpha(opacity=0);  
+	opacity:0;  
+  }
+
+/*-------------------------------*/
+
+/* these are for the cards */
+
+.centered {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.content {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0);
+	display: flex;
+}
+
+.info {
+	height: 100%;
+	width: 50%;
+	background-color: white;
+	flex: 1 1 0em;
+	padding: 0em 0.5px 0em 0.5em;
+	border-radius: 0em 0.5em 0.5em 0em;
+	filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.6));
+	transition: filter 0.3s;
+}
+
+.info:hover {
+	filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.6));
+}
+
+.picture {
+	
+	display: flex;
+	background-size: cover;
+	background-position: 16%;
+	flex: 1 1 0em;
+	filter: grayscale(10%);
+	border-radius: 0.5em 0em 0em 0.5em;
+}
+
+.title {
+	margin-top: 2em;
+	margin-left: 0.9em;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	color: #666;
+	font-size: 0.2em;
+}
+
+.descriptions {
+	width: auto;
+	max-height: 14.5em;
+	margin-left: 0.9em;
+	margin-right: 1.4em; /* the this marginleft + left padding of the card*/
+	margin-bottom: 0.9em;
+	font-family: 'Raleway', sans-serif;
+	color: #666;
+	font-size: 0.8em;
+	overflow: hidden;
+	text-align: justify;
+}
+
+hr {
+	color: #fff;
+	margin: 0em 0.2em 0em 0.2em;
+}
+
+.buttonCard {
+	position: relative;
+	left: 50%;
+	top: 90%;
+	transform: translate(-50%, -50%);
+	width: 6em;
+	height: 2em;
+	border-radius: 0.5em;
+	border: 0px solid #dd7a7a;
+	background-color: #dd7a7a;
+	transition: box-shadow 0.3s, background-color 0.3s, border 0.3s;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.9);
+}
+
+.buttonCard:hover {
+	background-color: #fafafa;
+	border: 1px solid #dd7a7a;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.buttonCard span {
+	font-size: 1em;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	transition: color 0.3s;
+	white-space: nowrap;
+	z-index: 100;
+}
+
+.buttonCard span:hover {
+	color: #dd7a7a;
+}
+
+.hashtag{
+	color:#dd7a7a;
+	font-weight: bold;
+}
+/* ends here */

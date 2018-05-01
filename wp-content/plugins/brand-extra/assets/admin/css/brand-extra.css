@@ -1,0 +1,42 @@
+.brand-notice {
+  padding: 20px 20px 20px 100px;
+  position: relative;
+}
+
+.brand-notice:before {
+  content: '\f313';
+  height: 100%;
+  background-color: #294D8F;
+  width: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: 'Dashicons';
+  font-size: 50px;
+}
+
+.brand-notice span {
+  display: block;
+  font-size:14px;
+}
+
+.brand-notice .button {
+ font-weight:600;
+}
+
+.brand-notice span:first-child {
+  margin-bottom:30px;
+}
+
+.brand-notice .button:first-child {
+  margin-right: 10px;
+}
+
+.brand-notice .button:last-child {
+  color: #999;
+}

@@ -1,0 +1,277 @@
+# Copyright (C) 2017 ProteusThemes 
+# This file is distributed under the GPL 2.0.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Brand Extra\n"
+"Report-Msgid-Bugs-To: http://support.proteusthemes.com/\n"
+"POT-Creation-Date: 2018-04-04 10:22+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Massimo Sanfelice <massimosanfelice1@gmail.com>\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: brand-extra.php:73
+#, php-format
+msgid ""
+"The %2$sBrand Extra%3$s plugin requires %2$sPHP 5.4+%3$s to run properly. "
+"Please contact your hosting company and ask them to update the PHP version of "
+"your site to at least PHP 5.4%4$s Your current version of PHP: %2$s%1$s%3$s"
+msgstr ""
+
+#: brand-extra.php:83
+#, php-format
+msgid ""
+"%1$sAs a way of saying thanks for using %2$sBrand theme%3$s  we offer you "
+"%4$s all our extensions %5$s with a 30%6$s discount. Just click on the button "
+"below and fill the form.%7$s"
+msgstr ""
+
+#: brand-extra.php:84
+#, php-format
+msgid "%1$s %2$s GET ALL EXTENSIONS %3$s %4$s NO THANKS %3$s %5$s"
+msgstr ""
+
+#: inc/brand-extra.php:110
+msgid "Brand Portfolio"
+msgstr ""
+
+#: inc/brand-extra.php:111
+msgid "Add an awesome portfolio in your Brand theme."
+msgstr ""
+
+#: inc/brand-extra.php:113 inc/brand-extra.php:122 inc/brand-extra.php:131
+msgid "Maxsdesign"
+msgstr ""
+
+#: inc/brand-extra.php:119
+msgid "Brand Import Export"
+msgstr ""
+
+#: inc/brand-extra.php:120
+msgid "Import and export Brand theme Customizer settings with one click."
+msgstr ""
+
+#: inc/brand-extra.php:128
+msgid "Brand Premium"
+msgstr ""
+
+#: inc/brand-extra.php:129
+msgid ""
+"A collection of extensions to add more features and options in your Brand "
+"theme."
+msgstr ""
+
+#: inc/brand-extra.php:182
+msgid "Brand Extra"
+msgstr ""
+
+#: inc/brand-extra.php:183
+msgid "Extensions"
+msgstr ""
+
+#: inc/brand-plugin-installer.php:40 inc/brand-plugin-installer.php:496
+msgid "Install Now"
+msgstr ""
+
+#: inc/brand-plugin-installer.php:75 inc/brand-plugin-installer.php:162
+#: inc/brand-plugin-installer.php:498
+msgid "Activated"
+msgstr ""
+
+#: inc/brand-plugin-installer.php:79 inc/brand-plugin-installer.php:166
+#: inc/brand-plugin-installer.php:497
+msgid "Activate"
+msgstr ""
+
+#: inc/brand-plugin-installer.php:111 inc/brand-plugin-installer.php:207
+msgid "By"
+msgstr ""
+
+#: inc/brand-plugin-installer.php:124 inc/brand-plugin-installer.php:229
+msgid "More Details"
+msgstr ""
+
+#: inc/brand-plugin-installer.php:223
+msgid "Get This Add On"
+msgstr ""
+
+#: inc/brand-plugin-installer.php:248
+msgid "Sorry, you are not allowed to install plugins on this site."
+msgstr ""
+
+#: inc/brand-plugin-installer.php:255 inc/brand-plugin-installer.php:323
+#: inc/brand-plugin-installer.php:391
+msgid "Error - unable to verify nonce, please try again."
+msgstr ""
+
+#: inc/brand-plugin-installer.php:316 inc/brand-plugin-installer.php:383
+msgid "Sorry, you are not allowed to activate plugins on this site."
+msgstr ""
+
+#: inc/brand-plugin-installer.php:495
+msgid "Are you sure you want to install this plugin?"
+msgstr ""
+
+#: inc/shortcodes/brand-gallery-shortcode.php:175
+msgid "Custom url"
+msgstr ""
+
+#: inc/shortcodes/brand-gallery-shortcode.php:176
+msgid "Set a url link for this attachment to use it in the galleries"
+msgstr ""
+
+#: inc/shortcodes/brand-gallery-shortcode.php:180
+msgid "Custom text"
+msgstr ""
+
+#: inc/shortcodes/brand-gallery-shortcode.php:181
+msgid ""
+"Set a text to display inside a button when display this attachment inside a "
+"gallery"
+msgstr ""
+
+#: inc/widgets/flickr.php:17
+msgid "Add Flickr photos"
+msgstr ""
+
+#: inc/widgets/flickr.php:46
+msgid "View stream on Flickr"
+msgstr ""
+
+#: inc/widgets/flickr.php:63
+msgid "Flickr Stream"
+msgstr ""
+
+#: inc/widgets/flickr.php:69 inc/widgets/instagram.php:76
+#: inc/widgets/social-links.php:107
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/flickr.php:73
+msgid "Flickr id:"
+msgstr ""
+
+#: inc/widgets/flickr.php:77 inc/widgets/instagram.php:84
+msgid "Number:"
+msgstr ""
+
+#: inc/widgets/instagram.php:17
+msgid "Add Instagram feed"
+msgstr ""
+
+#: inc/widgets/instagram.php:69
+msgid "Instagram"
+msgstr ""
+
+#: inc/widgets/instagram.php:80
+msgid "Username:"
+msgstr ""
+
+#: inc/widgets/instagram.php:88
+msgid "Columns:"
+msgstr ""
+
+#: inc/widgets/instagram.php:90
+msgid "2 Columns"
+msgstr ""
+
+#: inc/widgets/instagram.php:91
+msgid "3 Columns"
+msgstr ""
+
+#: inc/widgets/instagram.php:92
+msgid "4 Columns"
+msgstr ""
+
+#: inc/widgets/instagram.php:93
+msgid "5 Columns"
+msgstr ""
+
+#: inc/widgets/instagram.php:94
+msgid "6 Columns"
+msgstr ""
+
+#: inc/widgets/instagram.php:95
+msgid "7 Columns"
+msgstr ""
+
+#: inc/widgets/instagram.php:96
+msgid "8 Columns"
+msgstr ""
+
+#: inc/widgets/instagram.php:97
+msgid "9 Columns"
+msgstr ""
+
+#: inc/widgets/instagram.php:98
+msgid "10 Columns"
+msgstr ""
+
+#: inc/widgets/instagram.php:150
+msgid "No images found"
+msgstr ""
+
+#: inc/widgets/social-links.php:44
+msgid "Add social links"
+msgstr ""
+
+#: inc/widgets/social-links.php:98
+msgid "Social links"
+msgstr ""
+
+#: inc/widgets/social-links.php:111
+msgid "Size:"
+msgstr ""
+
+#: inc/widgets/social-links.php:115
+msgid "Font size:"
+msgstr ""
+
+#: inc/widgets/social-links.php:119
+msgid "Shape:"
+msgstr ""
+
+#: inc/widgets/social-links.php:121
+msgid "Square"
+msgstr ""
+
+#: inc/widgets/social-links.php:122
+msgid "Circle"
+msgstr ""
+
+#: inc/widgets/social-links.php:123
+msgid "None"
+msgstr ""
+
+#: inc/widgets/social-links.php:127
+msgid "Alignment:"
+msgstr ""
+
+#: inc/widgets/social-links.php:129
+msgid "Left"
+msgstr ""
+
+#: inc/widgets/social-links.php:130
+msgid "Center"
+msgstr ""
+
+#: inc/widgets/social-links.php:131
+msgid "Right"
+msgstr ""
+
+#: views/plugin-page.php:20
+msgid "Recommended Plugins"
+msgstr ""

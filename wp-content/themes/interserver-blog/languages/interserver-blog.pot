@@ -1,0 +1,673 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Interserver Blog\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-14 12:39+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. %s: category name
+#. %s: tag name
+#: inc/template-tags.php:78 inc/template-tags.php:83
+#, php-format
+msgid " %1$s"
+msgstr ""
+
+#: inc/template-tags.php:58
+msgid "% Comments"
+msgstr ""
+
+#: inc/customizer/defaults.php:133
+msgid "&copy; Copyright Interserver Theme 2018"
+msgstr ""
+
+#: comments.php:49 comments.php:67
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: inc/customizer/controls.php:52
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:75 inc/template-tags.php:80
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:58
+msgid "1 Comment"
+msgstr ""
+
+#: 404.php:22
+msgid "404"
+msgstr ""
+
+#: inc/customizer/options.php:284
+msgid "Add facebook link here"
+msgstr ""
+
+#: inc/customizer/options.php:311
+msgid "Add google plus link here"
+msgstr ""
+
+#: functions.php:279 functions.php:310
+msgid "Add Image"
+msgstr ""
+
+#: inc/customizer/options.php:302
+msgid "Add instagram link here"
+msgstr ""
+
+#: inc/customizer/options.php:329
+msgid "Add linkedIn link here"
+msgstr ""
+
+#: inc/customizer/options.php:320
+msgid "Add pinterest link here"
+msgstr ""
+
+#: inc/customizer/options.php:293
+msgid "Add twitter link here"
+msgstr ""
+
+#: inc/customizer/options.php:189 inc/customizer/sanitize.php:47
+msgid "Ascending"
+msgstr ""
+
+#: inc/customizer/options.php:208 inc/customizer/sanitize.php:62
+msgid "Author"
+msgstr ""
+
+#: inc/customizer/options.php:337
+msgid "Blog Options"
+msgstr ""
+
+#: inc/customizer/options.php:963
+msgid "Body font size"
+msgstr ""
+
+#: inc/customizer/options.php:627
+msgid "Body fonts"
+msgstr ""
+
+#: inc/customizer/options.php:1080
+msgid "Body Text Color"
+msgstr ""
+
+#: inc/customizer/options.php:34 inc/customizer/sanitize.php:11
+msgid "Boxed"
+msgstr ""
+
+#. %s: post author
+#: inc/template-tags.php:50
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: inc/customizer/options.php:120 inc/customizer/sanitize.php:116
+msgid "Centered (menu and site logo)"
+msgstr ""
+
+#: inc/customizer/options.php:1251
+msgid "Change the widgetized Footer Bottom background from here "
+msgstr ""
+
+#: inc/customizer/options.php:468
+msgid ""
+"Check this box to display the full content of your posts on the home page."
+msgstr ""
+
+#: inc/customizer/options.php:537
+msgid "Check this box to hide featured images on index, archives etc."
+msgstr ""
+
+#: inc/customizer/options.php:485
+msgid "Check this to display the full content of your posts on all archives."
+msgstr ""
+
+#: inc/customizer/options.php:554
+msgid "Check to hide featured images on single posts"
+msgstr ""
+
+#: inc/customizer/options.php:586
+msgid "Check to hide post meta on index/archives"
+msgstr ""
+
+#: inc/customizer/options.php:603
+msgid "Check to hide post meta on singles"
+msgstr ""
+
+#: inc/customizer/options.php:143
+msgid "Check to Hide Slider"
+msgstr ""
+
+#: inc/customizer/options.php:159
+msgid "Check to Hide Slider Caption"
+msgstr ""
+
+#: inc/customizer/options.php:437
+msgid "Check to show full width layout on single posts"
+msgstr ""
+
+#: inc/customizer/options.php:419
+msgid ""
+"Check to show full width Post layout\n"
+" on home and all archieves"
+msgstr ""
+
+#: inc/customizer/options.php:503
+msgid "Choose your excerpt length. Default: 44 words"
+msgstr ""
+
+#: inc/customizer/options.php:1025
+msgid "Colors"
+msgstr ""
+
+#: comments.php:48 comments.php:66
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:78
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: number of comments, 2: post title
+#: comments.php:32
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: post title
+#: comments.php:28
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: inc/customizer/options.php:450
+msgid "Content/Excerpt"
+msgstr ""
+
+#: template-parts/content.php:41
+msgid "Continue reading..!"
+msgstr ""
+
+#: inc/customizer/options.php:1013
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/customizer/options.php:244 inc/customizer/sanitize.php:91
+msgid "Custom"
+msgstr ""
+
+#: inc/customizer/options.php:206 inc/customizer/sanitize.php:60
+msgid "Date"
+msgstr ""
+
+#: inc/customizer/options.php:190 inc/customizer/sanitize.php:48
+msgid "Descending"
+msgstr ""
+
+#: template-parts/content-page.php:25 template-parts/content.php:55
+msgid "Edit"
+msgstr ""
+
+#: inc/customizer/options.php:502
+msgid "Excerpt length"
+msgstr ""
+
+#: inc/customizer/options.php:351
+msgid "Featured Categories"
+msgstr ""
+
+#: inc/customizer/options.php:519
+msgid "Featured images"
+msgstr ""
+
+#: inc/customizer/options.php:661 inc/customizer/options.php:709
+#: inc/customizer/options.php:757
+msgid "Font family"
+msgstr ""
+
+#: inc/customizer/options.php:644 inc/customizer/options.php:692
+#: inc/customizer/options.php:740
+msgid "Font name/style"
+msgstr ""
+
+#: inc/customizer/options.php:774
+msgid "Font sizes"
+msgstr ""
+
+#: inc/customizer/options.php:613
+msgid "Fonts"
+msgstr ""
+
+#: inc/customizer/options.php:974 inc/customizer/options.php:1235
+msgid "Footer"
+msgstr ""
+
+#: functions.php:116
+msgid "Footer "
+msgstr ""
+
+#: inc/customizer/options.php:1306
+msgid "Footer Bottom background"
+msgstr ""
+
+#: inc/customizer/options.php:1324
+msgid "Footer Bottom Text "
+msgstr ""
+
+#: functions.php:58
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/customizer/options.php:1288
+msgid "Footer Widget Text "
+msgstr ""
+
+#: inc/customizer/options.php:1271
+msgid "Footer Widget Title"
+msgstr ""
+
+#: inc/customizer/options.php:990
+msgid "Footer Widgets"
+msgstr ""
+
+#: inc/customizer/options.php:1250
+msgid "Footer Widgets Background"
+msgstr ""
+
+#: inc/customizer/options.php:997 inc/customizer/sanitize.php:145
+msgid "Four"
+msgstr ""
+
+#: inc/customizer/options.php:243 inc/customizer/sanitize.php:90
+msgid "Full screen"
+msgstr ""
+
+#: inc/customizer/sanitize.php:12
+msgid "Full Width"
+msgstr ""
+
+#. Name of the template
+msgid "Full width"
+msgstr ""
+
+#: inc/customizer/options.php:35
+msgid "Fullwidth"
+msgstr ""
+
+#: inc/customizer.php:15
+msgid "General"
+msgstr ""
+
+#: inc/customizer/options.php:615
+msgid "Google Fonts can be found here: google.com/fonts."
+msgstr ""
+
+#: inc/customizer/options.php:849
+msgid "H1 font size"
+msgstr ""
+
+#: inc/customizer/options.php:868
+msgid "H2 font size"
+msgstr ""
+
+#: inc/customizer/options.php:887
+msgid "H3 font size"
+msgstr ""
+
+#: inc/customizer/options.php:906
+msgid "H4 font size"
+msgstr ""
+
+#: inc/customizer/options.php:925
+msgid "H5 font size"
+msgstr ""
+
+#: inc/customizer/options.php:944
+msgid "H6 font size"
+msgstr ""
+
+#: inc/customizer/options.php:1089
+msgid "Header"
+msgstr ""
+
+#: inc/customizer/options.php:116
+msgid "Header Alignment"
+msgstr ""
+
+#: inc/customizer/options.php:1117
+msgid "Header background"
+msgstr ""
+
+#: inc/customizer/options.php:44
+msgid "Header Options"
+msgstr ""
+
+#: inc/customizer/options.php:76
+msgid "Header Style"
+msgstr ""
+
+#: inc/customizer/options.php:51
+msgid "Header Top Bar"
+msgstr ""
+
+#: inc/customizer/options.php:675
+msgid "Headings fonts"
+msgstr ""
+
+#: inc/customizer/options.php:68
+msgid "Hide Header Top Bar?"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://profiles.wordpress.org/interservernet-web-hosting"
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.interserver.net"
+msgstr ""
+
+#: inc/customizer/options.php:207 inc/customizer/sanitize.php:61
+msgid "ID"
+msgstr ""
+
+#: functions.php:275 functions.php:299
+msgid "Image"
+msgstr ""
+
+#: inc/customizer/options.php:119 inc/customizer/sanitize.php:115
+msgid "Inline"
+msgstr ""
+
+#. Author of the theme
+msgid "InterServer"
+msgstr ""
+
+#. Name of the theme
+#. Description of the theme
+msgid "Interserver Blog"
+msgstr ""
+
+#: inc/hook/structure.php:228
+msgid "InterServer Web Hosting"
+msgstr ""
+
+#: 404.php:26
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: template-parts/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/customizer/options.php:402 inc/customizer/sanitize.php:78
+msgid "Large Image Layout"
+msgstr ""
+
+#: inc/customizer/options.php:380
+msgid "Layout"
+msgstr ""
+
+#: inc/template-tags.php:58
+msgid "Leave a comment"
+msgstr ""
+
+#: functions.php:183 inc/post-like.php:194 inc/post-like.php:307
+msgid "Like"
+msgstr ""
+
+#: inc/customizer/options.php:222
+msgid "Limit no. of post to display in slider"
+msgstr ""
+
+#: inc/customizer/options.php:723
+msgid "Logo fonts"
+msgstr ""
+
+#: inc/customizer/options.php:1173
+msgid "Menu Item"
+msgstr ""
+
+#: inc/customizer/options.php:1191
+msgid "Menu Item Hover"
+msgstr ""
+
+#: inc/customizer/options.php:830
+msgid "Menu items"
+msgstr ""
+
+#: inc/customizer/options.php:568
+msgid "Meta"
+msgstr ""
+
+#: comments.php:50 comments.php:68
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: inc/customizer/options.php:221
+msgid "No.of Post"
+msgstr ""
+
+#: inc/customizer/options.php:205 inc/customizer/sanitize.php:59
+msgid "None"
+msgstr ""
+
+#: inc/post-like.php:16
+msgid "Not permitted"
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/customizer/options.php:994 inc/customizer/sanitize.php:142
+msgid "One"
+msgstr ""
+
+#: 404.php:23
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: template-parts/content-page.php:18 template-parts/content-search.php:39
+#: template-parts/content-single.php:32 template-parts/content.php:46
+msgid "Pages:"
+msgstr ""
+
+#: inc/customizer/options.php:397
+msgid "Post layout"
+msgstr ""
+
+#: inc/template-tags.php:19
+msgid "Post navigation"
+msgstr ""
+
+#: inc/customizer/options.php:184
+msgid "Post Order"
+msgstr ""
+
+#: inc/customizer/options.php:1041
+msgid "Primary color"
+msgstr ""
+
+#: functions.php:57
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/customizer/options.php:210 inc/customizer/sanitize.php:64
+msgid "Random"
+msgstr ""
+
+#. %s: post author
+#: template-parts/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: functions.php:280 functions.php:311
+msgid "Remove Image"
+msgstr ""
+
+#. %s: search-term
+#: search.php:24
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/customizer/options.php:1060
+msgid "Secondary color"
+msgstr ""
+
+#: inc/customizer/options.php:366
+msgid "Select 4 featured Categories to display on Index Page"
+msgstr ""
+
+#: inc/customizer/options.php:170 inc/customizer/options.php:365
+msgid "Select Category"
+msgstr ""
+
+#: inc/customizer/options.php:185
+msgid "Select Post Order"
+msgstr ""
+
+#: inc/customizer/options.php:992
+msgid ""
+"Select the number of widget areas you want in the footer. After that, go to "
+"Appearance > Widgets and add your widgets."
+msgstr ""
+
+#: inc/customizer/options.php:45
+msgid "Several settings pertaining my theme"
+msgstr ""
+
+#: inc/customizer/options.php:201
+msgid "Show post orderby"
+msgstr ""
+
+#: functions.php:104 inc/customizer/options.php:1333
+msgid "Sidebar"
+msgstr ""
+
+#: inc/customizer/options.php:1368
+msgid "Sidebar Text Color"
+msgstr ""
+
+#: inc/customizer/options.php:1351
+msgid "Sidebar Widget Title"
+msgstr ""
+
+#: inc/customizer/options.php:811 inc/customizer/options.php:1156
+msgid "Site description"
+msgstr ""
+
+#: inc/customizer/options.php:13 inc/customizer/options.php:31
+msgid "Site Layout"
+msgstr ""
+
+#: inc/customizer/options.php:792 inc/customizer/options.php:1136
+msgid "Site title"
+msgstr ""
+
+#: inc/customizer/options.php:261
+msgid "Slider Custom Height"
+msgstr ""
+
+#: inc/customizer/options.php:240
+msgid "Slider Height"
+msgstr ""
+
+#: inc/customizer/options.php:264
+msgid "Slider height in pixels(px)"
+msgstr ""
+
+#: inc/customizer/options.php:127
+msgid "Slider Options"
+msgstr ""
+
+#: inc/customizer/options.php:1226
+msgid "Slider Text Color"
+msgstr ""
+
+#: inc/customizer/options.php:401 inc/customizer/sanitize.php:77
+msgid "Small Image Layout"
+msgstr ""
+
+#: inc/customizer/options.php:273
+msgid "Social Icons"
+msgstr ""
+
+#: template-parts/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: inc/customizer/options.php:99 inc/customizer/sanitize.php:35
+msgid "Static"
+msgstr ""
+
+#: inc/customizer/options.php:98 inc/customizer/sanitize.php:34
+msgid "Sticky"
+msgstr ""
+
+#: inc/customizer/options.php:95
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/customizer/options.php:1209
+msgid "Sub Menu Item"
+msgstr ""
+
+#. %s: theme author
+#: inc/hook/structure.php:228
+#, php-format
+msgid "Theme by %s"
+msgstr ""
+
+#: inc/customizer/options.php:996 inc/customizer/sanitize.php:144
+msgid "Three"
+msgstr ""
+
+#: inc/customizer/options.php:209 inc/customizer/sanitize.php:63
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/options.php:1102
+msgid "Top Header background"
+msgstr ""
+
+#: inc/customizer/options.php:995 inc/customizer/sanitize.php:143
+msgid "Two"
+msgstr ""
+
+#: functions.php:184 inc/post-like.php:190
+msgid "Unlike"
+msgstr ""
+
+#: inc/customizer/options.php:171
+msgid "You can show a particular category posts to be displayed in a Slider"
+msgstr ""
+
+#: inc/post-like.php:349
+msgid "You do not like anything yet."
+msgstr ""
+
+#: inc/post-like.php:323
+msgid "You Like:"
+msgstr ""
